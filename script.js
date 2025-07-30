@@ -38,14 +38,14 @@ GuessBtn.addEventListener("click", function () {
       restartBtn.addEventListener("click", function () {
         location.reload();
       });
-      if (GetPoints.innerHTML > 80) {
+      if (GetPoints.innerHTML >= 80) {
         GetResult.innerHTML =
           "Congratulations, your Luck is exceptionally good!!";
-      } else if (GetPoints.innerHTML > 60 && GetPoints.innerHTML < 80) {
+      } else if (GetPoints.innerHTML >= 60 && GetPoints.innerHTML < 80) {
         GetResult.innerHTML = "Congratulations, your Luck is good!!";
-      } else if (GetPoints.innerHTML > 40 && GetPoints.innerHTML < 60) {
+      } else if (GetPoints.innerHTML >= 40 && GetPoints.innerHTML < 60) {
         GetResult.innerHTML = "Congratulations, your Luck is not bad!!";
-      } else if (GetPoints.innerHTML > 20 && GetPoints.innerHTML < 40) {
+      } else if (GetPoints.innerHTML >= 20 && GetPoints.innerHTML < 40) {
         GetResult.innerHTML = "Your Luck is a little bad!!";
       } else if (GetPoints.innerHTML > 0 && GetPoints.innerHTML < 20) {
         GetResult.innerHTML = "You are in need of some Luck !";
