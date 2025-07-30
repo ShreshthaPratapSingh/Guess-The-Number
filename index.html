@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="title">Guess The Number</div>
+      <div class="diclaimer">
+        <span class="hDis">Disclaimer:</span><br />
+        <div class="DisText">
+          Hey guys, so this game is all about your Luck. You can test out your
+          luck here by guessing a number. If the number matches the number
+          chosen by the system, you will be awarded points accordingly. After
+          every attempt you will recieve a hint but with each hint your score
+          which will be intially set to 100 will be reduced by 10 points each
+          attempt. So you will have 10 attempts to guess. The more your score,
+          the better your luck. <br />
+          BEST OF LUCK!!
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="MainGame">
+        <div class="PointsSector">
+          <span class="points">Points:</span
+          ><span class="pointsNumber">100</span>
+        </div>
+        <div class="GuessSector">
+          <label for="GuessBox" class="GuessLabel">Guess:</label>
+          <input
+            type="number"
+            class="GuessBox"
+            placeholder="Enter Your Guess here"
+          />
+        </div>
+        <div class="HintSector">
+          <span class="HintText">Hint:</span><span class="Hint"></span>
+        </div>
+        <div class="resultSector">
+          <span class="ResultText">Result:</span><span class="Result"></span>
+        </div>
+        <div class="SubmitSector">
+          <input type="submit" class="GuessBtn" value="Guess" />
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

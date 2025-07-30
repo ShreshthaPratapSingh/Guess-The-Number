@@ -1,0 +1,176 @@
+@keyframes opacityAni {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body {
+  background-color: black;
+}
+.title {
+  animation: opacityAni 1s ease-out forwards;
+  opacity: 0;
+  color: rgb(187, 0, 187);
+  text-align: center;
+  font-size: 7vh;
+  font-family: "Bitcount Prop Single", system-ui;
+  font-weight: 400;
+}
+.diclaimer {
+  color: purple;
+  text-align: center;
+  font-size: 4vh;
+  font-family: "Bitcount Prop Single", system-ui;
+}
+.hDis {
+  animation: opacityAni 1s ease-out 1s forwards;
+  opacity: 0;
+  color: rgb(187, 0, 187);
+  text-align: center;
+  font-size: 5vh;
+  font-family: "Bitcount Prop Single", system-ui;
+}
+.DisText{
+    opacity: 0;
+    animation: opacityAni 1s ease-out 2s forwards;
+}
+.GuessLabel {
+  color: rgb(187, 0, 187);
+  font-family: "Bitcount Prop Single", system-ui;
+  font-size: 5vh;
+}
+.GuessSector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.GuessBox {
+  width: 25vh;
+  color: purple;
+  text-align: center;
+  font-size: 2.5vh;
+  caret-color: transparent;
+  height: 5vh;
+  border-radius: 10px;
+  background-color: black;
+  border: 3px solid rgb(187, 0, 187);
+}
+.GuessBox::placeholder {
+  font-size: 2vh;
+  color: purple;
+  text-align: center;
+  font-family: "Bitcount Prop Single", system-ui;
+}
+.GuessBox::content {
+  color: purple;
+  text-align: center;
+  font: 2.5vh;
+}
+.GuessBox::-webkit-outer-spin-button,
+.GuessBox::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.GuessBtn {
+  transition: 0.2s;
+  width: 20vh;
+  height: 5vh;
+  background-color: black;
+  color: rgb(187, 0, 187);
+  font-size: 2.5vh;
+  border: 2px solid rgb(187, 0, 187);
+  font-family: "Bitcount Prop Single", system-ui;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.GuessBtn.GuessBtn:hover {
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+.SubmitSector {
+  display: flex;
+  justify-content: center;
+}
+.points {
+  color: rgb(187, 0, 187);
+  margin: 3vh;
+  margin-right: 1vh;
+  font-size: 4vh;
+  font-weight: 500;
+  font-family: "Bitcount Prop Single", system-ui;
+}
+.PointsSector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pointsNumber {
+  color: rgb(187, 0, 187);
+  font-size: 3.5vh;
+  font-family: "Bitcount Prop Single", system-ui;
+}
+.HintSector {
+  display: flex;
+  justify-content: center;
+}
+.HintText {
+  color: rgb(187, 0, 187);
+  font-size: 4vh;
+  font-weight: 500;
+  font-family: "Bitcount Prop Single", system-ui;
+}
+.Hint {
+  font-size: 4vh;
+  margin-left: 1vh;
+  color: purple;
+  font-family: "Bitcount Prop Single", system-ui;
+}
+.MainGame {
+  animation: opacityAni 1s ease-out 3s forwards;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+.resultSector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ResultText {
+  color: rgb(187, 0, 187);
+  font-size: 4vh;
+  font-weight: 500;
+  font-family: "Bitcount Prop Single", system-ui;
+}
+.Result {
+  font-size: 4vh;
+  margin-left: 1vh;
+  color: purple;
+  font-family: "Bitcount Prop Single", system-ui;
+}
+.restartSector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.restartBtn {
+  transition: 0.2s;
+  width: 20vh;
+  height: 5vh;
+  background-color: black;
+  color: rgb(187, 0, 187);
+  font-size: 2.5vh;
+  border: 2px solid rgb(187, 0, 187);
+  font-family: "Bitcount Prop Single", system-ui;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.restartBtn:hover {
+  transition: 0.2s;
+  transform: scale(1.1);
+}
